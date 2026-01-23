@@ -1,0 +1,79 @@
+Termux:
+bash
+pkg install git -y
+git clone https://github.com/hackerrabby/phishumster.git
+cd phishumster
+chmod +x phishumster.sh
+./phishumster.sh
+One-line Install:
+bash
+bash <(curl -s https://raw.githubusercontent.com/hackerrabby/phishumster/main/install.sh)
+📸 Screenshots
+text
+██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗   ██╗███╗   ███╗███████╗████████╗██████╗ 
+██╔══██╗██║  ██║██║██╔════╝██║  ██║██║   ██║████╗ ████║██╔════╝╚══██╔══╝██╔══██╗
+██████╔╝███████║██║███████╗███████║██║   ██║██╔████╔██║███████╗   ██║   ██████╔╝
+██╔═══╝ ██╔══██║██║╚════██║██╔══██║██║   ██║██║╚██╔╝██║╚════██║   ██║   ██╔══██╗
+██║     ██║  ██║██║███████║██║  ██║╚██████╔╝██║ ╚═╝ ██║███████║   ██║   ██║  ██║
+╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝
+🛠️ Usage
+Start the tool:
+
+bash
+sudo ./phishumster.sh
+Select tunnel method:
+
+Localhost
+
+Cloudflare Tunnel
+
+Ngrok Tunnel
+
+LocalXpose
+
+Choose phishing site:
+
+Facebook, Instagram, Google, etc.
+
+Send the link to target
+
+Monitor captured credentials in real-time
+
+🌐 Tunnel Methods
+1. Cloudflare Tunnel (Recommended)
+Free & reliable
+
+No authentication needed
+
+Works instantly
+
+2. Ngrok Tunnel
+Requires free account
+
+Stable connections
+
+Custom domains
+
+3. Localhost
+For local testing
+
+No internet required
+
+Fastest option
+
+⚠️ Legal Disclaimer
+This tool is for educational purposes only. Use only on systems you own or have permission to test. The author is not responsible for any misuse.
+
+👨‍💻 Author
+Hacker Rabby
+
+GitHub: @hackerrabby
+
+Tool: Phishumster v2.0
+
+📄 License
+MIT License - See LICENSE file for details
+
+🌟 Star History
+If you find this tool useful, please give it a star ⭐ on GitHub!
+
